@@ -1,0 +1,102 @@
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.20em;
+}
+
+header{
+     min-height: 100vh;
+    background:  linear-gradient(rgba(3, 3, 3, 0.6),rgba(14, 13, 13, 0.6)) , url(../imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.gallary{
+    padding: 0px;    
+}
+.gallary img{
+    width: 100%;
+    margin-bottom: -6px;
+    padding: -30px;
+  
+}
+
+.btn:hover{
+
+    letter-spacing: 0.25em;
+    box-shadow: 0px 0px 35px  #14c38e;
+}
+i:hover{
+
+    color:  #14c38e;
+    font-size: 60px;
+    transition: text-shadow 0.5s;
+    text-shadow: 0 0 10px  #14c38e, 0 0 20px  #14c38e;
+
+
+    
+}
+.team .card {
+    position: relative;
+    box-shadow: 0 0 10px  #14c38e;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+.team .card .card-text  {
+    color: #b3b3b3;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.card h1{
+    color: #b3b3b3;
+    font-size: 27px;
+    letter-spacing: 2px;
+
+}
+.carf-form{
+
+    box-shadow: 0 0 10px  #14c38e;
+    
+    transition: opacity 0.5s;
+}
+
+.img-about{
+
+    box-shadow: 0 0 10px  #14c38e;
+    
+    transition: opacity 0.5s;
+}
+
+.progress{
+
+    box-shadow: 0 0 10px  #14c38e;
+    
+    transition: opacity 0.5s;
+
+}
+.navbar-nav a:hover{
+    color: #14c38e;
+}
+hr{
+    margin-bottom: 20px;
+    border: solid #14c38e 1px;
+    margin: 20px auto;
+    width: 100%;
+    
+}
+.imge{
+    margin-bottom: 10px;
+    opacity: .8;
+
+}
+ .imge:hover{
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 0px 0px 40px  #14c38e;
+ 
+  }
+  
+ 
